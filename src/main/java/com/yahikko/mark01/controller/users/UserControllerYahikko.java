@@ -26,4 +26,9 @@ public class UserControllerYahikko {
         return ResponseEntity.status(201).body(response);
     }
 
+    @GetMapping("/retov")
+    public ResponseEntity<String> retov(){
+        return ResponseEntity.ok("Hola mundo reto V UVEG");
+    }
+
 }
